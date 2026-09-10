@@ -83,40 +83,40 @@ Intellectual Property (IP) Management Platforms (**IPMS**) form the critical inf
 
 *Sorted in descending order by **GitHub Star Count**.*
 
-- **[google/patents-public-data](https://github.com/google/patents-public-data)** [![GitHub stars](https://img.shields.io/github/stars/google/patents-public-data?style=social&color=white)](https://github.com/google/patents-public-data/stargazers)  
+- **[google/patents-public-data](https://github.com/google/patents-public-data)** [![GitHub_Stars](https://img.shields.io/github/stars/google/patents-public-data?style=social&color=white)](https://github.com/google/patents-public-data/stargazers)  
   Big data queries, analytics schemas, and sample SQL implementations using Google Patents Public Datasets hosted on Google BigQuery.
 
-- **[ip-tools/python-epo-ops-client](https://github.com/ip-tools/python-epo-ops-client)** [![GitHub stars](https://img.shields.io/github/stars/ip-tools/python-epo-ops-client?style=social&color=white)](https://github.com/ip-tools/python-epo-ops-client/stargazers)  
+- **[ip-tools/python-epo-ops-client](https://github.com/ip-tools/python-epo-ops-client)** [![GitHub_Stars](https://img.shields.io/github/stars/ip-tools/python-epo-ops-client?style=social&color=white)](https://github.com/ip-tools/python-epo-ops-client/stargazers)  
   Python client library for the European Patent Office (EPO) Open Patent Services (OPS) API with throttling, caching, and multi-endpoint support.
 
-- **[parkerhancock/patent_client](https://github.com/parkerhancock/patent_client)** [![GitHub stars](https://img.shields.io/github/stars/parkerhancock/patent_client?style=social&color=white)](https://github.com/parkerhancock/patent_client/stargazers)  
+- **[parkerhancock/patent_client](https://github.com/parkerhancock/patent_client)** [![GitHub_Stars](https://img.shields.io/github/stars/parkerhancock/patent_client?style=social&color=white)](https://github.com/parkerhancock/patent_client/stargazers)  
   Pythonic, ORM-style client suite to search, retrieve, and model public patent data from USPTO Patent Examination Data, Assignment APIs, and EPO.
 
-- **[ip-tools/patzilla](https://github.com/ip-tools/patzilla)** [![GitHub stars](https://img.shields.io/github/stars/ip-tools/patzilla?style=social&color=white)](https://github.com/ip-tools/patzilla/stargazers)  
+- **[ip-tools/patzilla](https://github.com/ip-tools/patzilla)** [![GitHub_Stars](https://img.shields.io/github/stars/ip-tools/patzilla?style=social&color=white)](https://github.com/ip-tools/patzilla/stargazers)  
   Modular open-source patent information research platform and data integration toolkit featuring a modern web UI, REST API, and OPS connector.
 
-- **[PatentsView/PatentsView-Code-Examples](https://github.com/PatentsView/PatentsView-Code-Examples)** [![GitHub stars](https://img.shields.io/github/stars/PatentsView/PatentsView-Code-Examples?style=social&color=white)](https://github.com/PatentsView/PatentsView-Code-Examples/stargazers)  
+- **[PatentsView/PatentsView-Code-Examples](https://github.com/PatentsView/PatentsView-Code-Examples)** [![GitHub_Stars](https://img.shields.io/github/stars/PatentsView/PatentsView-Code-Examples?style=social&color=white)](https://github.com/PatentsView/PatentsView-Code-Examples/stargazers)  
   Official open-source repository containing Python and R code examples for querying and parsing data from the USPTO PatentsView data platform.
 
-- **[tidwall/uspto-trademark](https://github.com/tidwall/uspto-trademark)** [![GitHub stars](https://img.shields.io/github/stars/tidwall/uspto-trademark?style=social&color=white)](https://github.com/tidwall/uspto-trademark/stargazers)  
+- **[tidwall/uspto-trademark](https://github.com/tidwall/uspto-trademark)** [![GitHub_Stars](https://img.shields.io/github/stars/tidwall/uspto-trademark?style=social&color=white)](https://github.com/tidwall/uspto-trademark/stargazers)  
   Automated script and open documentation guide on searching, preparing, and filing USPTO trademark applications programmatically.
 
-- **[jjdejong/phpip](https://github.com/jjdejong/phpip)** [![GitHub stars](https://img.shields.io/github/stars/jjdejong/phpip?style=social&color=white)](https://github.com/jjdejong/phpip/stargazers)  
+- **[jjdejong/phpip](https://github.com/jjdejong/phpip)** [![GitHub_Stars](https://img.shields.io/github/stars/jjdejong/phpip?style=social&color=white)](https://github.com/jjdejong/phpip/stargazers)  
   Open-source patent and IP rights portfolio manager and docketing system (GPL) designed by patent attorneys for law-firm portfolio tracking.
 
-- **[arminnorouzi/patentGPT](https://github.com/arminnorouzi/patentGPT)** [![GitHub stars](https://img.shields.io/github/stars/arminnorouzi/patentGPT?style=social&color=white)](https://github.com/arminnorouzi/patentGPT/stargazers)  
+- **[arminnorouzi/patentGPT](https://github.com/arminnorouzi/patentGPT)** [![GitHub_Stars](https://img.shields.io/github/stars/arminnorouzi/patentGPT?style=social&color=white)](https://github.com/arminnorouzi/patentGPT/stargazers)  
   LLM-based prototype for AI-driven patent analysis, technical parameter extraction, and claim decomposition.
 
-- **[ropensci/patentsview](https://github.com/ropensci/patentsview)** [![GitHub stars](https://img.shields.io/github/stars/ropensci/patentsview?style=social&color=white)](https://github.com/ropensci/patentsview/stargazers)  
+- **[ropensci/patentsview](https://github.com/ropensci/patentsview)** [![GitHub_Stars](https://img.shields.io/github/stars/ropensci/patentsview?style=social&color=white)](https://github.com/ropensci/patentsview/stargazers)  
   R client package for accessing, filtering, and analyzing patent data via the USPTO PatentsView API.
 
-- **[DocketAlarm/pacer-api](https://github.com/DocketAlarm/pacer-api)** [![GitHub stars](https://img.shields.io/github/stars/DocketAlarm/pacer-api?style=social&color=white)](https://github.com/DocketAlarm/pacer-api/stargazers)  
+- **[DocketAlarm/pacer-api](https://github.com/DocketAlarm/pacer-api)** [![GitHub_Stars](https://img.shields.io/github/stars/DocketAlarm/pacer-api?style=social&color=white)](https://github.com/DocketAlarm/pacer-api/stargazers)  
   Python client wrapper for accessing PACER litigation documents and federal patent docket entries.
 
-- **[JYProjs/patentpy](https://github.com/JYProjs/patentpy)** [![GitHub stars](https://img.shields.io/github/stars/JYProjs/patentpy?style=social&color=white)](https://github.com/JYProjs/patentpy/stargazers)  
+- **[JYProjs/patentpy](https://github.com/JYProjs/patentpy)** [![GitHub_Stars](https://img.shields.io/github/stars/JYProjs/patentpy?style=social&color=white)](https://github.com/JYProjs/patentpy/stargazers)  
   Python package to download, parse, and export bulk USPTO patent grants and applications into rectangular tabular formats.
 
-- **[kamilien1/patentr](https://github.com/kamilien1/patentr)** [![GitHub stars](https://img.shields.io/github/stars/kamilien1/patentr?style=social&color=white)](https://github.com/kamilien1/patentr/stargazers)  
+- **[kamilien1/patentr](https://github.com/kamilien1/patentr)** [![GitHub_Stars](https://img.shields.io/github/stars/kamilien1/patentr?style=social&color=white)](https://github.com/kamilien1/patentr/stargazers)  
   R package designed for tidy patent data extraction, citation analysis, and visual landscape modeling.
 
 ---
