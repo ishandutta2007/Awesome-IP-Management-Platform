@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    
+    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <style>
+      @keyframes pulse-glow {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 0.8; transform: scale(1.08); }
+      }
+      @keyframes rotate-ring {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes float-orb {
+        0%, 100% { transform: translateY(0px) scale(1); }
+        50% { transform: translateY(-12px) scale(1.1); }
+      }
+      @keyframes dash-move {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 100; }
+      }
+      .pulsing-glow {
+        transform-origin: 600px 180px;
+        animation: pulse-glow 4s ease-in-out infinite;
+      }
+      .rotating-ring {
+        transform-origin: 150px 180px;
+        animation: rotate-ring 12s linear infinite;
+      }
+      .floating-orb1 {
+        transform-origin: 1050px 100px;
+        animation: float-orb 5s ease-in-out infinite;
+      }
+      .floating-orb2 {
+        transform-origin: 980px 260px;
+        animation: float-orb 6s ease-in-out infinite 1s;
+      }
+      .circuit-line {
+        stroke-dasharray: 8 6;
+        animation: dash-move 8s linear infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+      }
+      .badge-pill {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" />
+  <rect width="1198" height="358" x="1" y="1" rx="15" fill="none" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Animated Ambient Background Glows -->
+  <circle cx="200" cy="180" r="140" fill="#4f46e5" opacity="0.15" filter="url(#soft-glow)" class="pulsing-glow" />
+  <circle cx="950" cy="180" r="160" fill="#06b6d4" opacity="0.12" filter="url(#soft-glow)" class="pulsing-glow" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Circuit Connection Lines -->
+  <g stroke="#38bdf8" stroke-width="1.5" fill="none" opacity="0.4" class="circuit-line">
+    <path d="M 150 180 L 280 180 L 330 140 L 480 140" />
+    <path d="M 150 180 L 260 230 L 380 230" />
+    <path d="M 850 140 L 980 140 L 1050 180" />
+    <path d="M 820 230 L 950 230 L 1050 180" />
+  </g>
+
+  <!-- Dynamic Rotating Tech Nodes (Left Side) -->
+  <g class="rotating-ring">
+    <circle cx="150" cy="180" r="55" fill="none" stroke="#6366f1" stroke-width="2" stroke-dasharray="8 6" opacity="0.7"/>
+    <circle cx="150" cy="180" r="70" fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="14 10" opacity="0.5"/>
+  </g>
+
+  <!-- Center-Left Shield & IP Emblem -->
+  <g filter="url(#glow)">
+    <circle cx="150" cy="180" r="42" fill="url(#shield-grad)" opacity="0.9" />
+    <path d="M 150 152 L 174 163 C 174 184 163 199 150 206 C 137 199 126 184 126 163 Z" fill="#ffffff" opacity="0.95"/>
+    <path d="M 143 178 L 148 183 L 158 171" fill="none" stroke="#4f46e5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Floating Decorative Nodes (Right Side) -->
+  <g class="floating-orb1" filter="url(#glow)">
+    <circle cx="1050" cy="100" r="18" fill="#818cf8" opacity="0.8"/>
+    <circle cx="1050" cy="100" r="28" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4 4" />
+    <text x="1050" y="105" text-anchor="middle" fill="#ffffff" font-size="12" font-family="sans-serif" font-weight="bold">IP</text>
+  </g>
+
+  <g class="floating-orb2" filter="url(#glow)">
+    <circle cx="980" cy="260" r="14" fill="#06b6d4" opacity="0.8"/>
+    <circle cx="980" cy="260" r="22" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="3 3" />
+  </g>
+
+  <!-- Central Content -->
+  <!-- Category Badge -->
+  <rect x="270" y="70" width="230" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="285" cy="84" r="5" fill="#10b981" />
+  <text x="298" y="89" fill="#94a3b8" class="badge-pill" font-size="12">CURATED ECOSYSTEM • 2026</text>
+
+  <!-- Main Title -->
+  <text x="270" y="145" fill="url(#neon-cyan)" class="title-text" font-size="44" filter="url(#glow)">
+    Awesome IP Management Platform
+  </text>
+
+  <!-- Subtitle -->
+  <text x="270" y="188" fill="#cbd5e1" class="subtitle-text" font-size="20">
+    The Definitive Guide to SaaS Platforms, IPMS, Docketing &amp; Open-Source LegalTech
+  </text>
+
+  <!-- Feature Tags / Pills -->
+  <g transform="translate(270, 225)">
+    <!-- Pill 1: Patent & Trademark -->
+    <rect x="0" y="0" width="180" height="34" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
+    <text x="90" y="22" fill="#a5b4fc" class="badge-pill" text-anchor="middle">⚡ Patent &amp; Trademark</text>
+
+    <!-- Pill 2: Docketing & Annuities -->
+    <rect x="195" y="0" width="185" height="34" rx="8" fill="#082f49" stroke="#0284c7" stroke-width="1"/>
+    <text x="287" y="22" fill="#7dd3fc" class="badge-pill" text-anchor="middle">📅 Docketing &amp; Annuities</text>
+
+    <!-- Pill 3: AI Search & Analytics -->
+    <rect x="395" y="0" width="175" height="34" rx="8" fill="#2e1065" stroke="#7e22ce" stroke-width="1"/>
+    <text x="482" y="22" fill="#d8b4fe" class="badge-pill" text-anchor="middle">🧠 AI IP Intelligence</text>
+
+    <!-- Pill 4: Open-Source Tools -->
+    <rect x="585" y="0" width="165" height="34" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+    <text x="667" y="22" fill="#6ee7b7" class="badge-pill" text-anchor="middle">💻 Open-Source Tools</text>
+  </g>
+
+  <!-- Bottom Accent Gradient Line -->
+  <rect x="40" y="340" width="1120" height="3" rx="1.5" fill="url(#neon-cyan)" opacity="0.8" filter="url(#glow)" />
+</svg>
