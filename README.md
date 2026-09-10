@@ -28,81 +28,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [SaaS Products](#saas-products)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## SaaS Products
 
-
-## SaaS/Hosted Platforms
-
-- **[Anaqua](https://www.anaqua.com/)**  
-
-  Leading enterprise IP management platform covering invention disclosure, docketing, portfolio management, analytics, and global prosecution workflows.
-
-
-
-- **[CPA Global / FoundationIP](https://www.clarivate.com/)**  
-
-  Established IP management and docketing system widely used by corporations and law firms for patents and trademarks (part of Clarivate ecosystem).
-
-
-
-- **[IPfolio](https://www.ipfolio.com/)**  
-
-  Modern, cloud-native IP management platform (often Salesforce-based) focused on portfolio management, collaboration, and ease of use.
-
-
-
-- **[PatSnap](https://www.patsnap.com/)**  
-
-  IP intelligence and analytics platform with patent search, landscape analysis, and portfolio management capabilities.
-
-
-
-- **[Alt Legal](https://www.altlegal.com/)**  
-
-  Trademark-focused management and docketing platform popular with firms and in-house teams for streamlined workflows.
-
-
-
-- **[Dennemeyer / Octimine](https://www.dennemeyer.com/)**  
-
-  Full-service IP management and software offerings including portfolio administration and related tools.
-
-
-
-- **[Inteum](https://www.inteum.com/)**  
-
-  IP management software used by technology transfer offices and organizations managing research-driven portfolios.
-
-
-
-- **[Questel Orbit / Equinox](https://www.questel.com/)**  
-
-  Comprehensive IP suite covering search, analytics, and management (Orbit for intelligence, Equinox for management/docketing).
-
-
-
-- **[MaxVal IP](https://www.maxval.com/)**  
-
-  IP management and services platform supporting portfolio administration and related processes.
-
-
-
-- **[Gridlogics / PatSeer](https://www.gridlogics.com/)**  
-
-  Patent search, analytics, and IP management tools aimed at R&D and IP professionals.
-
-
-
-- **[Patricia IP Management and related systems](https://github.com/)**  
-
-  Additional commercial IP management and docketing solutions used by firms and corporate IP departments.
+| Platform | Description | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Alt Legal](https://www.altlegal.com/)** | Automated IP & trademark docketing, deadline calculation, USPTO/CIPO sync, and client collaboration. | Starts at $60/month (up to 50 active matters; $100/mo up to 100 matters; month-to-month, unlimited users) | Free trial available on request (sandbox test environment) + 30-day money-back guarantee (no permanent free plan) |
+| **[Triangle IP](https://www.triangleip.com/)** | Invention capture, patent pipeline workflow, prosecution cost estimation, and portfolio analytics. | Free tier available; Premium plan starts at $50/month ($495/year billed annually for up to 100 users) | Free forever plan (up to 10 users, 1 portfolio, 5 GB storage, 10 MB max file size) & 30-day free trial of Premium features (no credit card required) |
+| **[AppColl](https://www.appcoll.com/)** | Cloud-based IP management, patent/trademark docketing, task generation, and billing management. | Starts at $100/month (PM Plus tier for small portfolios / boutique practices) | 30-day free trial with full feature access and unlimited matters/users (no credit card required; no permanent free plan) |
+| **[InnovationQ Plus](https://ip.com/innovationq-plus/)** | Semantic AI patent discovery, prior art search, and IP litigation/portfolio risk analysis by IP.com & IEEE. | Starts at $49/user/month for standard search access | Free trial available upon consultation; Free-forever search access provided via IP.com's public Prior Art Database |
+| **[PatSnap](https://www.patsnap.com/)** | AI-driven patent intelligence, R&D landscape search, competitive insights, and discovery workflows. | Eureka Pro starts at $100/month; Enterprise suites start at ~$15,000/year (~$1,250/month); API pay-as-you-go from $100/10k credits | 14-day free trial for Eureka platform (AI patent search, no credit card required); Open Platform API offers a free starter tier with 10,000 credits |
+| **[Gridlogics / PatSeer](https://www.patseer.com/)** | Global patent database search, 360° analytics, project sharing, and competitive landscape monitoring. | Starts at $900/quarter (~$300/month per user for Explorer/Standard edition) | 14-day (2-week) free trial with full patent search and analytics features (no credit card required; no permanent free plan) |
+| **[Dennemeyer / Octimine](https://www.dennemeyer.com/)** | End-to-end IP lifecycle management (DIAMS iQ IPMS, Simple IP docketing, and Octimine AI patent search). | Simple IP basic tier is $0; Octimine AI search starts at ~$250/month per user; DIAMS iQ enterprise starts at ~$10,000/year | Simple IP offers a free forever plan for small patent portfolios; Octimine offers a limited-query free trial / demo environment |
+| **[Questel Orbit / Equinox](https://www.questel.com/)** | Integrated IP suite spanning Orbit Intelligence (patent search & analytics) and Equinox (docketing & matter management). | Orbit Intelligence starts at ~$3,000/year (~$250/month); Equinox IPMS starts at ~$350/month for boutique firms | 15-day free trial for Orbit Intelligence patent search platform; guided demo & evaluation instance for Equinox (no permanent free plan) |
+| **[MaxVal IP / Symphony](https://www.maxval.com/)** | Salesforce Lightning-native IP management platform for invention disclosures, prosecution, and portfolio tracking. | Max-Insight basic suite starts with free tier; Symphony IPMS enterprise deployments start at ~$12,000/year (~$1,000/month base) | Max-Insight offers a free forever tier for basic patent search & metrics; Symphony IPMS offers guided pilot demo access upon request |
+| **[Inteum](https://www.inteum.com/)** | Technology transfer & IP management platform tailored for research universities, hospitals, and corporate R&D. | Entry-level hosting / module packages start at $1,350/year (~$112.50/month) | No permanent free plan; guided interactive demo and sandbox trial available upon sales qualification |
+| **[Patricia IP Management](https://www.patrix.com/)** | Highly configurable law firm & corporate IPMS (Patrix / Anaqua) for cross-jurisdiction docketing, workflows, and cost tracking. | Base user licenses start at ~$50–$150/user/month (typical minimum organization deployment begins at ~$10,000/year) | No permanent free plan; interactive proof-of-concept / pilot demonstration available on request |
+| **[Anaqua](https://www.anaqua.com/)** | Enterprise IP management & intelligence platform (AQX) covering invention capture, docketing, annuities, and global prosecution. | AcclaimIP patent analytics module starts at ~$200/month per user; AQX enterprise suite starts at ~$25,000/year | 7-day to 14-day free trial for AcclaimIP analytics; enterprise AQX provides guided sandbox test accounts upon demo request (no permanent free plan) |
+| **[IPfolio](https://www.clarivate.com/products/ip-intelligence/ip-management/ipfolio/)** | Cloud-native, Salesforce-based IP management solution focused on corporate IP lifecycle visibility and automated workflows. | Entry-level deployments start at ~$20,000/year (~$1,667/month for core corporate portfolio management) | No permanent free plan; guided pilot environment and sandbox evaluation provided during enterprise onboarding consultation |
+| **[CPA Global / FoundationIP](https://www.clarivate.com/)** | Clarivate-backed enterprise IPMS providing rule-based patent/trademark docketing, foreign filings, and prosecution workflows. | Enterprise starting tiers begin at ~$30,000/year (~$2,500/month base subscription plus setup/migration) | No permanent free plan; tailored interactive demo and pilot trial environment arranged via sales |
 
 
 
